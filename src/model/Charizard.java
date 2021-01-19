@@ -19,6 +19,7 @@ package model;
 //type = "FIRE"
 //evolution = "CHARMELEON"
 //baseExp = "240" 
+<<<<<<< HEAD
 public class Charizard extends Pokemon{
 	String characteristics;
 	String type;
@@ -58,3 +59,5 @@ public class Charizard extends Pokemon{
 	}
 	
 }
+=======
+>>>>>>> e448b5052f2f59e53105ec371ffe2524fda9d2ca

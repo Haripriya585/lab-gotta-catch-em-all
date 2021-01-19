@@ -1,6 +1,10 @@
 package testing;
 
+<<<<<<< HEAD
 
+=======
+/*
+>>>>>>> e448b5052f2f59e53105ec371ffe2524fda9d2ca
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
@@ -68,4 +72,8 @@ public class TestCharizard {
 		}
 	}
 }
+<<<<<<< HEAD
 
+=======
+*/
+>>>>>>> e448b5052f2f59e53105ec371ffe2524fda9d2ca

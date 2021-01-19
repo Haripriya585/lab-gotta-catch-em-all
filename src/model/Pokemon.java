@@ -8,6 +8,7 @@ package model;
 //Generate appropriate getters and setters.
 //Generate a two-argument constructor in the Pokemon class
 
+<<<<<<< HEAD
 public class Pokemon{
 	String pokemonName;
 	int pokemonNUmber;
@@ -30,3 +31,5 @@ public class Pokemon{
 	}
 	
 }
+=======
+>>>>>>> e448b5052f2f59e53105ec371ffe2524fda9d2ca

@@ -9,12 +9,16 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+<<<<<<< HEAD
 import model.Pokemon;
 import model.Charizard;
 import model.Bulbasaur;
 import model.Dragonite;
 import model.Pikachu;
 import model.Mew;
+=======
+
+>>>>>>> e448b5052f2f59e53105ec371ffe2524fda9d2ca
 @WebServlet(urlPatterns = { "/pokemon" })
 public class PokemonController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -43,6 +47,7 @@ public class PokemonController extends HttpServlet {
 		if (value1 != null) {
 			
 			// Create the object for Bulbasaur class and use getters to retrieve the values	
+<<<<<<< HEAD
 			Bulbasaur bulbasaur = new Bulbasaur("Bulbasaur",001,"Bulbasaur is a Grass/Poison-type Pokémon introduced in Generation I. It evolves into Ivysaur starting at level 16. It is one of the three Starter Pokémon in the Kanto region.","POISON","IVYSAUR","64");
 			msg = "<center>" +  bulbasaur.getPokemonName() + "  #" + bulbasaur.getPokemonNUmber();
 			request.setAttribute("message1",msg);
@@ -63,11 +68,33 @@ public class PokemonController extends HttpServlet {
 			request.setAttribute("type2",charizard.getType());
 			request.setAttribute("evolution2", charizard.getEvolution());
 			request.setAttribute("baseExp2", charizard.getBaseExp());
+=======
+		/*	  
+			msg = "<center>" + //getter + "  #" + //getter;
+			request.setAttribute("message1",//getter);
+			request.setAttribute("character1", //getter);
+			request.setAttribute("type1",//getter;
+			request.setAttribute("evolution1", //getter);
+			request.setAttribute("baseExp1", //getter);*/
+		}
+
+		if (value2 != null) {
+			// Create the object for Charizard class and use getters to retrieve the values	
+			
+			/*	  
+			msg = "<center>" + //getter + "  #" + //getter;
+			request.setAttribute("message2",//getter);
+			request.setAttribute("character2", //getter);
+			request.setAttribute("type2",//getter;
+			request.setAttribute("evolution2", //getter);
+			request.setAttribute("baseExp2", //getter);*/
+>>>>>>> e448b5052f2f59e53105ec371ffe2524fda9d2ca
 		}
 
 		if (value3 != null) {
 
 			// Create the object for Dragonite class and use getters to retrieve the values	
+<<<<<<< HEAD
 			Dragonite dragonite =new Dragonite("Dragonite",149,"Dragonite is capable of flying faster than the speed of sound. It is a kindhearted Pokémon with human-like intelligence. It shows signs of altruism.","DRAGON","DRATINI","270");
 			  
 			msg = "<center>" + dragonite.getPokemonName()  + "  #" + dragonite.getPokemonNUmber();
@@ -100,6 +127,40 @@ public class PokemonController extends HttpServlet {
 			request.setAttribute("type5",pikachu.getType());
 			request.setAttribute("evolution5", pikachu.getEvolution());
 			request.setAttribute("baseExp5", pikachu.getBaseExp());
+=======
+
+			/*	  
+			msg = "<center>" + //getter + "  #" + //getter;
+			request.setAttribute("message3",//getter);
+			request.setAttribute("character3", //getter);
+			request.setAttribute("type3",//getter;
+			request.setAttribute("evolution3", //getter);
+			request.setAttribute("baseExp3", //getter);*/
+		}
+		if (value4 != null) {
+
+			// Create the object for Mew class and use getters to retrieve the values	
+			/*	  
+			msg = "<center>" + //getter + "  #" + //getter;
+			request.setAttribute("message4",//getter);
+			request.setAttribute("character4", //getter);
+			request.setAttribute("type4",//getter;
+			request.setAttribute("evolution4", //getter);
+			request.setAttribute("baseExp4", //getter);*/
+		}
+
+		if (value5 != null) {
+
+			// Create the object for Pikachu class and use getters to retrieve the values	
+/*getter*/
+			/*	  
+			msg = "<center>" + //getter + "  #" + //getter;
+			request.setAttribute("message5",//getter);
+			request.setAttribute("character5", //getter);
+			request.setAttribute("type5",//getter;
+			request.setAttribute("evolution5", //getter);
+			request.setAttribute("baseExp5", //getter);*/
+>>>>>>> e448b5052f2f59e53105ec371ffe2524fda9d2ca
 
 		}
 
@@ -107,5 +168,9 @@ public class PokemonController extends HttpServlet {
 		rd.forward(request, response);
 
 	}
+<<<<<<< HEAD
 	}
+=======
+
+>>>>>>> e448b5052f2f59e53105ec371ffe2524fda9d2ca
 }

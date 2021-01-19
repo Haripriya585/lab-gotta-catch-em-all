@@ -19,6 +19,7 @@ package model;
 //evolution = "IVYSAUR"
 //baseExp = "64" 
 
+<<<<<<< HEAD
 public class Bulbasaur extends Pokemon{
 	String characteristics;
 	String type;
@@ -66,4 +67,7 @@ public class Bulbasaur extends Pokemon{
 	
 	
 }
+=======
+
+>>>>>>> e448b5052f2f59e53105ec371ffe2524fda9d2ca
 

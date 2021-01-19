@@ -1,5 +1,9 @@
 package testing;
+<<<<<<< HEAD
 
+=======
+/*
+>>>>>>> e448b5052f2f59e53105ec371ffe2524fda9d2ca
 import org.junit.Test;
 
 import model.Pikachu;
@@ -68,4 +72,8 @@ public class TestPikachu {
 		}
 	}
 }
+<<<<<<< HEAD
 
+=======
+*/
+>>>>>>> e448b5052f2f59e53105ec371ffe2524fda9d2ca

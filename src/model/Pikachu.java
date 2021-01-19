@@ -24,6 +24,7 @@ package model;
  * evolution = "RAICHU" 
  * baseExp = "112"
  */
+<<<<<<< HEAD
 public class Pikachu extends Pokemon{
 	String characteristics;
 	String type;
@@ -62,3 +63,5 @@ public class Pikachu extends Pokemon{
 		this.baseExp = baseExp;
 	}
 }
+=======
+>>>>>>> e448b5052f2f59e53105ec371ffe2524fda9d2ca

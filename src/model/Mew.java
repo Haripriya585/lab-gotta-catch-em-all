@@ -18,6 +18,7 @@ package model;
 //type = "PSYCHIC"
 //evolution = "NONE"
 //baseExp = "64" 
+<<<<<<< HEAD
 public class Mew extends Pokemon{
 	String characteristics;
 	String type;
@@ -56,3 +57,5 @@ public class Mew extends Pokemon{
 		this.baseExp = baseExp;
 	}
 }
+=======
+>>>>>>> e448b5052f2f59e53105ec371ffe2524fda9d2ca
